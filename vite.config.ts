@@ -4,4 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: './', // Relative asset paths for GitHub Pages, Vercel, Netlify compatibility
 })
