@@ -2,6 +2,9 @@
 **Sales Manager Attention & Coaching Hub**  
 *Assessment Delivery Scope: 21 August 2026 (Asia/Kolkata)*
 
+🌐 **Live Application URL:** [https://revenue-intelligence-inbox.onrender.com](https://revenue-intelligence-inbox.onrender.com)  
+📁 **GitHub Repository:** [https://github.com/kirubasankarij/Revenue-Intelligence-Inbox](https://github.com/kirubasankarij/Revenue-Intelligence-Inbox)
+
 ---
 
 ## 1. Quick Start & Execution
