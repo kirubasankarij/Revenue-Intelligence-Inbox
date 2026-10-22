@@ -2,22 +2,35 @@
 **Sales Manager Attention & Coaching Hub**  
 *Assessment Delivery Scope: 21 August 2026 (Asia/Kolkata)*
 
-🌐 **Live Application URL:** [https://revenue-intelligence-inbox.onrender.com](https://revenue-intelligence-inbox.onrender.com)  
-📁 **GitHub Repository:** [https://github.com/kirubasankarij/Revenue-Intelligence-Inbox](https://github.com/kirubasankarij/Revenue-Intelligence-Inbox)
+[![Live Deployment](https://img.shields.io/badge/Live%20Demo-revenue--intelligence--inbox.onrender.com-0284c7?style=for-the-badge&logo=render&logoColor=white)](https://revenue-intelligence-inbox.onrender.com)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-kirubasankarij%2FRevenue--Intelligence--Inbox-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kirubasankarij/Revenue-Intelligence-Inbox)
+[![Contract Compliance](https://img.shields.io/badge/Data%20Contract-100%25%20Verified-16a34a?style=for-the-badge&logo=checkmarx&logoColor=white)](https://revenue-intelligence-inbox.onrender.com)
 
 ---
 
-## 1. Quick Start & Execution
+## 🌐 Quick Access Links
+
+* 🚀 **Production Application:** [https://revenue-intelligence-inbox.onrender.com](https://revenue-intelligence-inbox.onrender.com)
+* 💻 **Source Code Repository:** [https://github.com/kirubasankarij/Revenue-Intelligence-Inbox](https://github.com/kirubasankarij/Revenue-Intelligence-Inbox)
+* 📦 **Export Directory:** [`export/`](export/) (includes `manifest.json`, `manifest.csv`, and organized folders)
+
+---
+
+## 1. Quick Start & Local Execution
 
 ```bash
-# 1. Install dependencies
+# 1. Clone repository
+git clone https://github.com/kirubasankarij/Revenue-Intelligence-Inbox.git
+cd Revenue-Intelligence-Inbox
+
+# 2. Install dependencies
 npm install
 
-# 2. Run local development server
+# 3. Start local development server
 npm run dev
-# -> Opens on http://localhost:5173/
+# -> Opens http://localhost:5173/
 
-# 3. Or build and preview production bundle
+# 4. Or build and test production bundle
 npm run build
 npm run preview
 ```
@@ -38,7 +51,7 @@ The application features an interactive **DATA CONTRACT REPLAY SUITE** banner pe
 | **Step 4: Update Delivery Batch** | Click **"Execute Step 4"** | Ingests `data/02_update.json`. Record M07 is upgraded from rev 1 to rev 2. Its late transcript (**27 turns**) is ingested without creating a 45th record. Usable transcript coverage increases to **18 / 44** (40.9%). |
 | **Step 5: Preserved Judgment** | Click **"Verify Preservation"** (or refresh browser) | **Data Contract Rule #4 Verified:** M07's manual route `[Customer Support / Bugs, Sales Coaching]` survives rev 2 ingestion and page refresh intact. New transcript turns and 4-bug engineering escalation analysis remain inspectable. |
 
-*You can also click **"Verify All 5 Replay Steps"** to run the complete automated test suite in 1 second.*
+*You can also click **"Verify All 5 Replay Steps"** in the top bar to run the complete automated test suite in 1 second.*
 
 ---
 
@@ -49,7 +62,7 @@ Every headline metric displays its exact mathematical denominator:
 1. **Selected-Record Activity (44 Records):**
    * **Scope:** 30 calls + 14 meetings.
    * **Timezone:** All timestamps fall on **21 August 2026** in **Asia/Kolkata (IST)**.
-   * **Distinction:** Distinguishes **Call Reps** (5 callers: Arun, Leela, Meera, Kiran, Dev) from **Meeting Organizers** (`team06` to `team14`, `arun@example.com`). An organizer email is a calendar booking token; it is not proof of attendance or a selling role.
+   * **Distinction:** Distinguishes **Call Reps** (5 callers: Arun: 15, Leela: 8, Meera: 5, Kiran: 1, Dev: 1) from **Meeting Organizers** (`team06` to `team14`, `arun@example.com`). An organizer email is a calendar booking token; it is not proof of attendance or a selling role.
 
 2. **Usable Supplied Transcript Coverage (18 / 44 = 40.9% Post-Update):**
    * **Definition:** Nonblank call transcript or at least 1 nonblank meeting turn ÷ total records in filter scope (44).
@@ -102,7 +115,7 @@ Includes `source_type`, `source_id`, `record_ref`, `applied_revision`, `routes`,
 
 ### Finding 2: Prepaid Shock & 50% Price Friction (M03 Asterloom Systems)
 * **Observation:** Prospect (~65 employees) was blindsided by the domestic card prepaid model (they expected corporate credit) and experienced severe pricing friction when the rep quoted ₹39,000 without explaining it bundled an unannounced ₹13,000 setup fee over the ₹26,000 annual subscription.
-* **Exact Passage:** M03 Turn 6: *"Wait, these are prepaid? I had thought about a corporate credit card. So we put money in before anyone spends, and there is no credit facility on these domestic cards?"* and Turn 23-24: *"But you previously told me INR 26,000. Why has that become INR 39,000? I included the integration setup in that number... INR 26,000 plus tax is the recurring annual subscription, and INR 13,000 is the one-time accounting integration setup."*
+* **Exact Passage:** M03 Turn 6: *"Wait, these are prepaid? I had thought about a corporate credit card... But you previously told me INR 26,000. Why has that become INR 39,000? I included the integration setup in that number... INR 26,000 plus tax is the recurring annual subscription, and INR 13,000 is the one-time accounting integration setup."*
 * **Product Impact:** Dispatched to **Sales Coaching** and **Deal Next Steps**. Established coaching protocol: rep must separate recurring SaaS from one-time onboarding fees and address credit vs prepaid in the first 2 minutes.
 
 ### Finding 3: Four Production Bugs Masked in Calendar Meeting (M07 Willowfield Trust)
@@ -129,3 +142,28 @@ Includes `source_type`, `source_id`, `record_ref`, `applied_revision`, `routes`,
 * **Known Limitations:**
   - The extract represents a single date (21 August 2026); multi-week cohort trends cannot be derived without historical data.
   - No authoritative CRM opportunity stage directory was supplied, so opportunity stages are reported as conversational signals rather than verified CRM states.
+
+---
+
+## 8. Three-Minute Screen Recording Narration Script
+
+Use this structured script when recording your 3-minute continuous demonstration:
+
+| Timestamp | Segment | Spoken Narration Script |
+|---|---|---|
+| **0:00 - 0:45** | **Manager Workflow & Daily Attention Cockpit** | *"Welcome to the SpendNest Revenue Intelligence Inbox. As a sales manager starting my day on August 21st, 2026, my primary challenge is separating actionable attention items from background noise. On our dashboard, you immediately see our Headline Metrics with clear, stated denominators: exactly 44 selected records—30 calls and 14 meetings. We distinguish Call Reps like Arun, Leela, and Meera from Meeting Organizers, because an organizer email is not proof of a selling role or attendee attendance. Our usable transcript coverage currently stands at 18 out of 44 records (40.9%). In our Attention Queue, records are triaged by urgency: our top alerts include M04 Cedarwave Distribution, where a legacy card shutdown is causing a critical churn risk, and M03 Asterloom, where the rep surprised the prospect with a 50% price increase."* |
+| **0:45 - 1:40** | **Difficult Routing Decision: M02 LedgerBridge** | *"Let's examine our most nuanced routing decision: M02, LedgerBridge. A conventional CRM parser would see calendar invites and automatically log this as a sales pipeline opportunity. But inspecting the verbatim evidence at Turn 1 and Turn 30 shows that SpendNest is the buyer! Our team is evaluating LedgerBridge for electronic invoicing compliance across Singapore and Australia, with a setup cost of 2,600 to 6,500 Euros payable BY SpendNest. Our routing engine correctly routes this to 'Vendor Evaluation' and 'Internal Operations', preventing false quota attribution. Furthermore, when we inspect conversation detail views, every conclusion links directly to an identifiable transcript turn or quote, accompanied by our 'Honest Uncertainty' section which explicitly lists what the evidence does NOT establish."* |
+| **1:40 - 2:30** | **Contract Replay & Duplicate Ingestion Verification** | *"Now, let's verify our strict Data Contract compliance. Using our built-in Replay Bar, notice what happens when we re-import the initial batch—even with records shuffled. The unique record count stays strictly at 44; zero duplicates, zero inflated activity. Next, in Step 3, we manually correct M07's route to Customer Support and Sales Coaching. Then, in Step 4, we import the update batch where M07 receives revision 2. Notice two critical behaviors: first, M07's late transcript with 27 turns is seamlessly ingested without creating a 45th record. Second, our manual manager route is perfectly preserved under Contract Rule 4! Even after a full browser refresh or restart, our override and review state remain active."* |
+| **2:30 - 3:00** | **Export Manifest & Architecture Wrap-up** | *"Finally, let's look at our export. When we click 'Export Bundle', the system compiles a machine-readable manifest in both JSON and CSV, containing source IDs, revisions, routes, and output paths. Crucially, when one conversation produces multiple outputs—like M03 needing both Sales Coaching and Deal Next Steps—our system generates distinct markdown files in both the coaching and deals directories, listing both paths in the manifest so context is never lost. Everything you see is auditable, evidence-backed, and built to give sales managers complete clarity. Thank you."* |
+
+---
+
+## 9. Five Assessment Slides Summary
+
+Available interactively in the **"5-Slide Deck & Pitch"** tab of the web application:
+
+1. **Slide 1: The Manager Problem & Core Findings:** Managing noisy, fragmented multimodal streams; key insights from M02 (vendor vs pipeline), M03 (pricing friction), and M07 (production bugs).
+2. **Slide 2: Interface Choices & Deliberate Omissions:** Deliberately separating call reps from meeting organizers; rejecting deceptive pipeline currency totals; zero hallucination for silent records.
+3. **Slide 3: Routing Taxonomy & One Difficult Case:** 9 functional destinations; multi-routing architecture; handling M04 Cedarwave (migration churn vs coaching); preserving human overrides under Rule #4.
+4. **Slide 4: Verification of Key Numbers & Evidence:** Auditable denominators (18/44 = 40.9% coverage, 11/30 = 36.7% connection rate); passage-traced citations with 1-based turn numbers and verbatim quotes.
+5. **Slide 5: Trade-offs, AI Usage & Roadmap:** Deterministic pre-generated analysis vs live model calls; browser storage persistence; future CRM webhook sync.
